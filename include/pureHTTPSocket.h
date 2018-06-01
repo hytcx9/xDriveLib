@@ -20,6 +20,7 @@
 #pragma	  warning(disable:4267)
 #pragma	  warning(disable:4312)
 #pragma	  warning(disable:4244)
+#define			USING_UDP_CHECK			0
 
 #define			FIRSTTIMEOUT			0      /* MSeconds */
 #define			TIMEOUTs				300      /* MSeconds */
@@ -29,7 +30,7 @@
 #define         USER_AGENT              "Mozilla/5.0 (compatible; MSIE 10.7; Windows NT 7.1; mt/7.0)"
 #define			REQ_LEN					81920
 #define			PAGE_DIR_LEN			1024
-#define			MIN(a,b)				(a<b)?a:b
+#define			PHS_MIN(a,b)			(a<b)?a:b
 #define			SESSION_STR_SIZE		130*3
 #define			WZ_RECV_BUF_SIZE		4096
 
